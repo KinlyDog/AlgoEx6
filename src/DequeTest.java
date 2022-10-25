@@ -48,6 +48,4 @@ class DequeTest {
             assertTrue(list.size() == 11 + i);
         }
     }
-
-
 }
