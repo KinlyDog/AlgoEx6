@@ -32,7 +32,7 @@ public class Deque<T> {
     }
 
     public int size() {
-        if (list.isEmpty()) {
+        if (!list.isEmpty()) {
             return list.size();
         }
 
