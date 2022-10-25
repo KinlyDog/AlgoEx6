@@ -38,4 +38,8 @@ public class Deque<T> {
 
         return 0;
     }
+
+    public boolean contains(T item) {
+        return list.contains(item);
+    }
 }
